@@ -1,7 +1,6 @@
 /* eslint-disable @typescript-eslint/no-empty-interface */
 import React, { FunctionComponent, useState } from 'react';
 import styled from 'styled-components';
-
 import Button from '../Button/Button';
 import Body from '../../Body/Body';
 import useFetch from '../../../hooks/useFetch';
@@ -17,11 +16,13 @@ type Props = OwnProps;
 const Layout: FunctionComponent<Props> = () => {
   const [chosenPart, setChosenPart] = useState('');
   const { data, error, isLoading } = useFetch(`${chosenPart}.json`);
+
   const {
     data: allData,
     error: allError,
     isLoading: allIsLoading,
   } = useFetchAll(currentExercises);
+
   const exercises = chosenPart === '' ? allData : data;
   const loading = isLoading || allIsLoading;
 

@@ -1,6 +1,5 @@
 import React, { FunctionComponent, useState } from 'react';
 import styled from 'styled-components';
-
 import Exercise from './Exercise/Exercise';
 import Header from './Header/Header';
 import Modal from '../ui/Modal/Modal';
@@ -36,7 +35,6 @@ const Exercises: FunctionComponent<Props> = ({
     setDisplayedExercises((prevExercises: ExerciseI[]) => {
       const page = currentPage * limit;
       const exercises = list.slice(page, page + limit);
-
       return exercises;
     });
   };
@@ -46,7 +44,6 @@ const Exercises: FunctionComponent<Props> = ({
     setDisplayedExercises((prevExercises: ExerciseI[]) => {
       const page = (currentPage - 1) * limit;
       const exercises = list.slice(page - limit, page);
-
       return exercises;
     });
   };
@@ -64,7 +61,6 @@ const Exercises: FunctionComponent<Props> = ({
           {(displayedExercises.length ? displayedExercises : list)?.map(
             (ex: ExerciseI, index: number) => {
               if (index >= limit && !displayedExercises.length) return;
-
               return (
                 <Exercise
                   key={ex.id}

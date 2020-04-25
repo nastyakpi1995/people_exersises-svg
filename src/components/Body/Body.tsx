@@ -337,11 +337,9 @@ const G = styled.g<GProps>`
     if (part === chosenPart) {
       return 'darkblue';
     }
-
     if (part === highlightedBodyPart) {
       return 'lightblue';
     }
-
     return '';
   }};
   cursor: pointer;
