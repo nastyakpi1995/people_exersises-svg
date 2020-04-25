@@ -5,6 +5,7 @@ interface OwnProps {
   onSetChosenPart: Function;
   chosenPart: string;
 }
+
 type Props = OwnProps;
 
 const Body: FunctionComponent<Props> = ({ onSetChosenPart, chosenPart }) => {

@@ -9,6 +9,7 @@ import useFetchAll from '../../../hooks/useFetchAll';
 import Exercises from '../../Exercises/Exercises';
 
 const currentExercises = ['foot.json', 'hip.json', 'leg.json', 'neck.json'];
+
 interface OwnProps {}
 
 type Props = OwnProps;

@@ -8,6 +8,7 @@ interface OwnProps {
 }
 
 type Props = OwnProps;
+
 const Header: FunctionComponent<Props> = ({
   amount,
   areExercisesFound,

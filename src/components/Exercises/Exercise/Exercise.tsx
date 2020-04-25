@@ -20,6 +20,7 @@ interface OwnProps {
 }
 
 type Props = OwnProps;
+
 const Exercise: FunctionComponent<Props> = ({
   ex: { id, title, app_title, information, sets_reps, comments, image_url },
   onHandleChooseExercise,
@@ -99,6 +100,7 @@ const WrapperImg = styled.div`
     display: block;
   }
 `;
+
 const Content = styled.div`
   display: flex;
   margin-bottom: 14px;
