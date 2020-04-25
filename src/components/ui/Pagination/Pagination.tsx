@@ -8,6 +8,7 @@ interface OwnProps {
   onHandlePrevPage: Function;
 }
 type Props = OwnProps;
+
 const Pagination: FunctionComponent<Props> = ({
   page,
   maxPage,
@@ -30,6 +31,7 @@ const Pagination: FunctionComponent<Props> = ({
     </CompontentPagination>
   );
 };
+
 const CompontentPagination = styled.div`
   width: 230px;
   height: 64px;
@@ -44,23 +46,29 @@ const CompontentPagination = styled.div`
   margin: 23px auto;
   color: green;
 `;
-const Arrow = styled.div`
+
+const Arrow = styled.button`
   width: 40px;
   height: 40px;
   border: none;
   background: #ebe9e7;
   color: #0000ff;
   border-radius: 10px;
-  margin-right: 5px;
+  margin: 0 10px;
   outline: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 18px;
+
   &[disabled] {
-    color: white;
-    background: gray;
+    color: gray;
   }
-  ​&:hover:not([disabled]) {
+
+  &:hover:not([disabled]) {
+    background: #aab2bb;
     color: white;
-    background: gray;
-    transition: all 2s;
+    transition: all 0.9s;
   }
 `;
 
