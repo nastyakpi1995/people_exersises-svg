@@ -1,6 +1,7 @@
 /* eslint-disable @typescript-eslint/no-empty-interface */
 import React, { FunctionComponent, useState } from 'react';
 import styled from 'styled-components';
+
 import Button from '../Button/Button';
 import Body from '../../Body/Body';
 import useFetch from '../../../hooks/useFetch';
@@ -11,6 +12,7 @@ const currentExercises = ['foot.json', 'hip.json', 'leg.json', 'neck.json'];
 interface OwnProps {}
 
 type Props = OwnProps;
+
 const Layout: FunctionComponent<Props> = () => {
   const [chosenPart, setChosenPart] = useState('');
   const { data, error, isLoading } = useFetch(`${chosenPart}.json`);
@@ -21,6 +23,7 @@ const Layout: FunctionComponent<Props> = () => {
   } = useFetchAll(currentExercises);
   const exercises = chosenPart === '' ? allData : data;
   const loading = isLoading || allIsLoading;
+
   return (
     <Container>
       <WrapperImg>
@@ -61,6 +64,7 @@ const WrapperBody = styled.div`
   width: 519px;
   height: 671px;
   display: flex;
+
   & svg {
     overflow: hidden;
     box-sizing: border-box;
@@ -71,4 +75,5 @@ const WrapperBody = styled.div`
     display: block;
   }
 `;
+
 export default Layout;

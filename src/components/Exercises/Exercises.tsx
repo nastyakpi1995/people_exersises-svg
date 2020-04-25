@@ -1,6 +1,6 @@
-/* eslint-disable consistent-return */
 import React, { FunctionComponent, useState } from 'react';
 import styled from 'styled-components';
+
 import Exercise from './Exercise/Exercise';
 import Header from './Header/Header';
 import Modal from '../ui/Modal/Modal';
@@ -13,7 +13,9 @@ interface OwnProps {
   chosenPart: string;
   loading: boolean;
 }
+
 type Props = OwnProps;
+
 const Exercises: FunctionComponent<Props> = ({
   list = [],
   chosenPart,
@@ -27,25 +29,28 @@ const Exercises: FunctionComponent<Props> = ({
   >([]);
   const totalAmount = list?.length;
   const maxPage = totalAmount ? Math.ceil(totalAmount / limit) : 0;
-  // console.log(displayedExercises, 'displayedExercises');
   const clickedExercise = list?.find((ex) => ex.id === chosenExercise);
+
   const handleNextPage = () => {
     setCurrentPage((prevPage) => prevPage + 1);
     setDisplayedExercises((prevExercises: ExerciseI[]) => {
-      // const exercises = list.slice((currentPage + 1) * limit - limit, limit);
       const page = currentPage * limit;
       const exercises = list.slice(page, page + limit);
+
       return exercises;
     });
   };
+
   const handlePrevPage = () => {
     setCurrentPage((prevPage) => prevPage - 1);
     setDisplayedExercises((prevExercises: ExerciseI[]) => {
       const page = (currentPage - 1) * limit;
       const exercises = list.slice(page - limit, page);
+
       return exercises;
     });
   };
+
   return (
     <>
       <Container>
@@ -59,6 +64,7 @@ const Exercises: FunctionComponent<Props> = ({
           {(displayedExercises.length ? displayedExercises : list)?.map(
             (ex: ExerciseI, index: number) => {
               if (index >= limit && !displayedExercises.length) return;
+
               return (
                 <Exercise
                   key={ex.id}
@@ -77,6 +83,7 @@ const Exercises: FunctionComponent<Props> = ({
         onHandleNextPage={handleNextPage}
         onHandlePrevPage={handlePrevPage}
       />
+
       {clickedExercise && (
         <Modal
           show={!!chosenExercise}
@@ -92,6 +99,7 @@ const Exercises: FunctionComponent<Props> = ({
     </>
   );
 };
+
 const Container = styled.div`
   padding: 21px;
   max-height: 80vh;
@@ -99,6 +107,7 @@ const Container = styled.div`
   overflow: hidden;
   position: relative;
 `;
+
 const List = styled.div`
   display: grid;
   grid-template-columns: 400px 400px;
@@ -106,4 +115,5 @@ const List = styled.div`
   grid-gap: 21px;
   box-sizing: border-box;
 `;
+
 export default Exercises;

@@ -29,6 +29,7 @@ export default (url: string) => {
     reducer,
     initialState
   );
+
   useEffect(() => {
     setTimeout(() => {
       (async () => {
@@ -44,5 +45,6 @@ export default (url: string) => {
       })();
     }, 1500);
   }, [url]);
+
   return { data, error, isLoading };
 };

@@ -5,7 +5,9 @@ interface OwnProps {
   show: boolean;
   onHandleModalClose: Function;
 }
+
 type Props = OwnProps;
+
 const Backdrop: FunctionComponent<Props> = ({ show, onHandleModalClose }) =>
   show ? <Container onClick={() => onHandleModalClose()} /> : null;
 
@@ -18,4 +20,5 @@ const Container = styled.div`
   top: 0;
   background-color: rgba(0, 0, 0, 0.5);
 `;
+
 export default Backdrop;

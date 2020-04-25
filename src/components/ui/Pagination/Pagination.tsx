@@ -60,6 +60,7 @@ const Arrow = styled.button`
   align-items: center;
   justify-content: center;
   font-size: 18px;
+  cursor: pointer;
 
   &[disabled] {
     color: gray;
@@ -72,13 +73,13 @@ const Arrow = styled.button`
   }
 `;
 
-const Back = styled(Arrow)<any>`
+const Back = styled(Arrow)`
   &:after {
     content: '<';
   }
 `;
 
-const Next = styled(Arrow)<any>`
+const Next = styled(Arrow)`
   &:after {
     content: '>';
   }
