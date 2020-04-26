@@ -27,9 +27,9 @@ const Layout: FunctionComponent<Props> = () => {
   const loading = isLoading || allIsLoading;
 
   return (
-    <Container>
-      <WrapperImg>
-        <WrapperBody>
+    <Container className="container-main">
+      <WrapperImg className="wrapper-img">
+        <WrapperBody className="wrapper-body">
           <Body onSetChosenPart={setChosenPart} chosenPart={chosenPart} />
         </WrapperBody>
         <Button text="Reset" onHandleClick={setChosenPart.bind(null, '')} />

@@ -18,7 +18,7 @@ const Pagination: FunctionComponent<Props> = ({
   const minPage = 1;
 
   return (
-    <CompontentPagination>
+    <ComponentPagination className="сomponent-pagination">
       <Back
         onClick={() => onHandlePrevPage()}
         disabled={page === minPage && true}
@@ -28,11 +28,11 @@ const Pagination: FunctionComponent<Props> = ({
         onClick={() => onHandleNextPage()}
         disabled={page === maxPage && true}
       />
-    </CompontentPagination>
+    </ComponentPagination>
   );
 };
 
-const CompontentPagination = styled.div`
+const ComponentPagination = styled.div`
   width: 230px;
   height: 64px;
   background: #ebe9e7;

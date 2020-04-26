@@ -52,8 +52,8 @@ const Exercises: FunctionComponent<Props> = ({
 
   return (
     <>
-      <BoxWrapper>
-        <Container>
+      <BoxWrapper className="box-wrapper">
+        <Container className="container">
           {loading && <Spinner />}
           <Header
             amount={totalAmount}

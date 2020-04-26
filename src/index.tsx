@@ -10,10 +10,10 @@ const GlobalStyle = createGlobalStyle`
     overflow: hidden;
   }
    @media (max-width: 601px) {
-     .ovqzq {
+     .container-main {
        flex-direction: column;
      }
-     .htnrsp {
+     .wrapper-img {
         width: 100%;
      }
    }
@@ -24,20 +24,17 @@ const GlobalStyle = createGlobalStyle`
         height: fit-content;
         overflow: visible;
     }
-    .gLTdYw {
+    .wrapper-body {
       margin: 40px;
     }
-    .htohlh {
-      height: 100vh;
+    .wrapper-img {
+       height: fit-content;
     }
-    .htnrsp {
+    .box-wrapper {
        height: fit-content;
     }
     .hjJRWO {
        margin-top: 30px;
-    }
-    .htohlh {
-       height: fit-content;
     }
     .iZZGCF {
         align-items: center;
