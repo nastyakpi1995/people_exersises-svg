@@ -1,7 +1,11 @@
-import React from 'react';
+/* eslint-disable @typescript-eslint/no-empty-interface */
+import React, { FunctionComponent } from 'react';
 import Layout from './components/ui/Layout/Layout';
 
-const App = () => {
+interface OwnProps {}
+type Props = OwnProps;
+
+const App: FunctionComponent<Props> = () => {
   return (
     <div className="App">
       <Layout />
