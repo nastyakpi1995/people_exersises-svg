@@ -44,17 +44,13 @@ const Layout: FunctionComponent<Props> = () => {
 };
 
 const Container = styled.div`
-  display: grid;
-  grid-template-columns: 576px 1fr;
+  display: flex;
   height: 100vh;
 `;
 
 const WrapperImg = styled.div`
-  grid-row-start: 1;
-  grid-row-end: 3;
   flex-direction: column;
   background: #c4c4c4;
-  margin: 0 auto;
   width: 576px;
   display: flex;
   justify-content: flex-end;
@@ -63,8 +59,7 @@ const WrapperImg = styled.div`
 `;
 
 const WrapperBody = styled.div`
-  width: 519px;
-  height: 671px;
+  width: fill-available;
   display: flex;
 
   & svg {

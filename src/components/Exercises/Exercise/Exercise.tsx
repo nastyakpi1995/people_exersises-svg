@@ -74,7 +74,7 @@ const ModalBox = styled.div`
   & img {
     width: 400px;
   }
-  
+
   & button {
     position: absolute;
     bottom: 8%;

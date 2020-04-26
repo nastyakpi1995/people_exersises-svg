@@ -35,15 +35,13 @@ const Pagination: FunctionComponent<Props> = ({
 const CompontentPagination = styled.div`
   width: 230px;
   height: 64px;
-  grid-column-start: 2;
-  grid-row-start: 2;
   background: #ebe9e7;
   box-shadow: 0px 8px 8px rgba(0, 0, 0, 0.2);
   border-radius: 10px;
   display: flex;
   justify-content: center;
   align-items: center;
-  margin: 23px auto;
+  margin: 0 auto;
   color: green;
 `;
 
