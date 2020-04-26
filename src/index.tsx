@@ -9,6 +9,14 @@ const GlobalStyle = createGlobalStyle`
     margin: 0px;
     overflow: hidden;
   }
+
+  @media (max-width: 1101px) {
+     body {
+       width: fit-content;
+       height: fit-content;
+       overflow: visible;
+     }
+  }
 `;
 
 ReactDOM.render(

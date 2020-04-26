@@ -104,10 +104,14 @@ const Exercises: FunctionComponent<Props> = ({
 const BoxWrapper = styled.div`
   width: 100%;
   padding: 21px;
+
+  @media (max-width: 1101px) {
+    height: fit-content;
+    width: auto;
+  }
 `;
 
 const Container = styled.div`
-  height: 80vh;
   max-width: 100%;
   position: relative;
 `;
@@ -117,6 +121,10 @@ const List = styled.div`
   grid-template-columns: repeat(2, minmax(300px, 1fr));
   grid-gap: 21px;
   box-sizing: border-box;
+
+  @media (max-width: 601px) {
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  }
 `;
 
 export default Exercises;
