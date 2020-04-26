@@ -52,8 +52,8 @@ const Exercises: FunctionComponent<Props> = ({
 
   return (
     <>
-      <BoxWrapper className="box-wrapper">
-        <Container className="container">
+      <BoxWrapper>
+        <Container>
           {loading && <Spinner />}
           <Header
             amount={totalAmount}
@@ -104,6 +104,11 @@ const Exercises: FunctionComponent<Props> = ({
 const BoxWrapper = styled.div`
   width: 100%;
   padding: 21px;
+
+  @media (max-width: 1101px) {
+    height: fit-content;
+    width: auto;
+  }
 `;
 
 const Container = styled.div`

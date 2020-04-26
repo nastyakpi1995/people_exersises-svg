@@ -27,9 +27,9 @@ const Layout: FunctionComponent<Props> = () => {
   const loading = isLoading || allIsLoading;
 
   return (
-    <Container className="container-main">
-      <WrapperImg className="wrapper-img">
-        <WrapperBody className="wrapper-body">
+    <Container>
+      <WrapperImg>
+        <WrapperBody>
           <Body onSetChosenPart={setChosenPart} chosenPart={chosenPart} />
         </WrapperBody>
         <Button text="Reset" onHandleClick={setChosenPart.bind(null, '')} />
@@ -44,8 +44,18 @@ const Layout: FunctionComponent<Props> = () => {
 };
 
 const Container = styled.div`
+  height: fit-content;
+  align-items: start;
   display: flex;
   height: 100vh;
+
+  @media (max-width: 601px) {
+    flex-direction: column;
+  }
+
+  @media (max-width: 1101px) {
+    overflow: auto;
+  }
 `;
 
 const WrapperImg = styled.div`
@@ -56,6 +66,14 @@ const WrapperImg = styled.div`
   justify-content: flex-end;
   padding-bottom: 40px;
   align-items: center;
+
+  @media (max-width: 601px) {
+    width: 100%;
+  }
+
+  @media (max-width: 1101px) {
+    height: fit-content;
+  }
 `;
 
 const WrapperBody = styled.div`
@@ -70,6 +88,10 @@ const WrapperBody = styled.div`
     height: 100%;
     position: relative;
     display: block;
+  }
+
+  @media (max-width: 1101px) {
+    margin: 40px;
   }
 `;
 
