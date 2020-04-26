@@ -8,6 +8,7 @@ interface OwnProps {
   onHandleModalClose: Function;
   children: React.ReactChild;
 }
+
 type Props = OwnProps;
 
 const Modal: FunctionComponent<Props> = ({

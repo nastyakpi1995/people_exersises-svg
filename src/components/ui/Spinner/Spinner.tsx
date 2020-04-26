@@ -1,3 +1,4 @@
+/* eslint-disable @typescript-eslint/no-empty-interface */
 import React, { FunctionComponent } from 'react';
 import styled, { keyframes } from 'styled-components';
 
@@ -16,22 +17,10 @@ const Spinner: FunctionComponent<Props> = () => {
 };
 
 const spin = keyframes`
- 0% {
-    -webkit-transform: rotate(0deg);
-    transform: rotate(0deg);
-  }
-  100% {
-    -webkit-transform: rotate(360deg);
-    transform: rotate(360deg);
-  }
-}
-@keyframes load2 {
   0% {
-    -webkit-transform: rotate(0deg);
     transform: rotate(0deg);
   }
   100% {
-    -webkit-transform: rotate(360deg);
     transform: rotate(360deg);
   }
 `;
