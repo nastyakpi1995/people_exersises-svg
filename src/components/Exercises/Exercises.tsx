@@ -52,37 +52,39 @@ const Exercises: FunctionComponent<Props> = ({
 
   return (
     <>
-      <Container>
-        {loading && <Spinner />}
-        <Header
-          amount={totalAmount}
-          areExercisesFound={!!totalAmount}
-          chosenPart={chosenPart}
-          loading={loading}
-        />
-        <List>
-          {(displayedExercises.length ? displayedExercises : list)?.map(
-            (ex: ExerciseI, index: number) => {
-              if (index >= limit && !displayedExercises.length) return;
-              return (
-                <Exercise
-                  key={ex.id}
-                  ex={ex}
-                  onHandleChooseExercise={setChosenExercise}
-                  inModal={false}
-                />
-              );
-            }
-          )}
-        </List>
-      </Container>
-      <Pagination
-        page={currentPage}
-        maxPage={maxPage}
-        onHandleNextPage={handleNextPage}
-        onHandlePrevPage={handlePrevPage}
-      />
+      <BoxWrapper>
+        <Container>
+          {loading && <Spinner />}
+          <Header
+            amount={totalAmount}
+            areExercisesFound={!!totalAmount}
+            chosenPart={chosenPart}
+            loading={loading}
+          />
+          <List>
+            {(displayedExercises.length ? displayedExercises : list)?.map(
+              (ex: ExerciseI, index: number) => {
+                if (index >= limit && !displayedExercises.length) return;
 
+                return (
+                  <Exercise
+                    key={ex.id}
+                    ex={ex}
+                    onHandleChooseExercise={setChosenExercise}
+                    inModal={false}
+                  />
+                );
+              }
+            )}
+          </List>
+        </Container>
+        <Pagination
+          page={currentPage}
+          maxPage={maxPage}
+          onHandleNextPage={handleNextPage}
+          onHandlePrevPage={handlePrevPage}
+        />
+      </BoxWrapper>
       {clickedExercise && (
         <Modal
           show={!!chosenExercise}
@@ -99,18 +101,20 @@ const Exercises: FunctionComponent<Props> = ({
   );
 };
 
-const Container = styled.div`
+const BoxWrapper = styled.div`
+  width: 100%;
   padding: 21px;
-  max-height: 80vh;
+`;
+
+const Container = styled.div`
   height: 80vh;
-  overflow: hidden;
+  max-width: 100%;
   position: relative;
 `;
 
 const List = styled.div`
   display: grid;
-  grid-template-columns: 400px 400px;
-  width: 904px;
+  grid-template-columns: repeat(2, minmax(300px, 1fr));
   grid-gap: 21px;
   box-sizing: border-box;
 `;
