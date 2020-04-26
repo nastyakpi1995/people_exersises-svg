@@ -41,7 +41,7 @@ const CompontentPagination = styled.div`
   display: flex;
   justify-content: center;
   align-items: center;
-  margin: 0 auto;
+  margin: 30px auto;
   color: green;
 `;
 

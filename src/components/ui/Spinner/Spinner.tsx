@@ -27,7 +27,7 @@ const spin = keyframes`
 
 const Container = styled.div`
   width: 100%;
-  height: 100%;
+  height: 100vh;
   position: absolute;
   top: 0;
   left: 0;
@@ -35,10 +35,10 @@ const Container = styled.div`
 
 const SpinnerBackground = styled.div`
   width: 100%;
-  height: 100%;
+  height: 100vh;
   position: absolute;
   background: lightgrey;
-  opacity: 0.3;
+  opacity: 0.5;
   z-index: 10;
 `;
 

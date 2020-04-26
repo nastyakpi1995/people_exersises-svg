@@ -107,7 +107,6 @@ const BoxWrapper = styled.div`
 `;
 
 const Container = styled.div`
-  height: 80vh;
   max-width: 100%;
   position: relative;
 `;
