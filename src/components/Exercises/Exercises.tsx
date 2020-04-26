@@ -121,6 +121,10 @@ const List = styled.div`
   grid-template-columns: repeat(2, minmax(300px, 1fr));
   grid-gap: 21px;
   box-sizing: border-box;
+
+  @media (max-width: 601px) {
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  }
 `;
 
 export default Exercises;

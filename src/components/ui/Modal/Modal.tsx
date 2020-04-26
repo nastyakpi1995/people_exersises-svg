@@ -44,6 +44,18 @@ const Container = styled.div`
   box-sizing: border-box;
   transition: all 0.3s ease-out;
 
+  @media (max-width: 601px) {
+    left: 0;
+    top: 0;
+    width: fit-content;
+  }
+
+  @media (max-width: 1001px) {
+    left: calc(50% - 205px);
+    top: calc(50% - 315px);
+    width: 416px;
+  }
+
   @media (min-width: 600px) {
     .Modal {
       width: 500px;
