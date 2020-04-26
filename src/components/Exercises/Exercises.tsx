@@ -23,9 +23,11 @@ const Exercises: FunctionComponent<Props> = ({
   const [chosenExercise, setChosenExercise] = useState(0);
   const [currentPage, setCurrentPage] = useState(1);
   const [limit, setLimit] = useState(6);
+
   const [displayedExercises, setDisplayedExercises] = useState<
     ExerciseI[] | []
   >([]);
+
   const totalAmount = list?.length;
   const maxPage = totalAmount ? Math.ceil(totalAmount / limit) : 0;
   const clickedExercise = list?.find((ex) => ex.id === chosenExercise);
@@ -56,6 +58,7 @@ const Exercises: FunctionComponent<Props> = ({
           amount={totalAmount}
           areExercisesFound={!!totalAmount}
           chosenPart={chosenPart}
+          loading={loading}
         />
         <List>
           {(displayedExercises.length ? displayedExercises : list)?.map(
