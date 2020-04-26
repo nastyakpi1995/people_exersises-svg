@@ -55,6 +55,7 @@ const Container = styled.div`
 
   @media (max-width: 1101px) {
     overflow: auto;
+    height: auto;
   }
 `;
 
