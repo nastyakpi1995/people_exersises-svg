@@ -43,13 +43,17 @@ const Layout: FunctionComponent<Props> = () => {
 
 const Container = styled.div`
   display: grid;
-  grid-template-columns: 50% 50%;
+  grid-template-columns: 100%;
   overflow: auto;
   height: max-content;
+
+  @media (min-widht: 800px) {
+    grid-template-columns: 50% 50%;
+  }
 `;
 
 const LeftContainer = styled.div`
-  position: relative;
+  // position: relative;
   flex-direction: column;
   background: #c4c4c4;
   height: fit-content;
@@ -71,9 +75,9 @@ const LeftContainer = styled.div`
 const WrapperBody = styled.div`
   width: fill-available;
   display: flex;
-  position: absolute;
-  top: 50%;
-  transform: translateY(-50%);
+  // position: absolute;
+  // top: 50%;
+  // transform: translateY(-50%);
 
   & svg {
     overflow: hidden;
