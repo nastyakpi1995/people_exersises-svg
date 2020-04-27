@@ -122,8 +122,7 @@ const Container = styled.div`
 
 const List = styled.div`
   display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
-
+  grid-template-columns: repeat(auto-fill, minmax(300px, 400px));
   grid-gap: 21px;
   box-sizing: border-box;
 

@@ -126,9 +126,11 @@ const Container = styled.div`
   display: flex;
   align-items: end;
   height: 90px;
+  width: 300px;
 
-  @media (min-width: 601px) {
+  @media (min-width: 801px) {
     height: 127px;
+    width: 400px;
   }
 `;
 
