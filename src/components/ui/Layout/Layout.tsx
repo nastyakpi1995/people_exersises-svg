@@ -26,12 +26,12 @@ const Layout: FunctionComponent<Props> = () => {
   console.log(loading, 'loading');
   return (
     <Container>
-      <LeftContainer>
+      <RigthContainer>
         <WrapperBody>
           <Body onSetChosenPart={setChosenPart} chosenPart={chosenPart} />
         </WrapperBody>
         <Button text="Reset" onHandleClick={setChosenPart.bind(null, '')} />
-      </LeftContainer>
+      </RigthContainer>
       <Exercises
         chosenPart={chosenPart}
         list={exercises || []}
@@ -48,23 +48,24 @@ const Container = styled.div`
   overflow: auto;
   height: max-content;
 
-  @media (min-width: 800px) {
-    grid-template-columns: 50% 50%;
+  @media (min-width: 900px) {
+    grid-template-columns: 35% 65%;
   }
 `;
 
-const LeftContainer = styled.div`
+const RigthContainer = styled.div`
   flex-direction: column;
   background: #c4c4c4;
   height: fit-content;
   display: flex;
-  width: 100%;
   justify-content: flex-end;
   padding-bottom: 40px;
   align-items: center;
 
   @media (min-width: 900px) {
     height: initial;
+    display: flex;
+    justify-content: center;
   }
 `;
 

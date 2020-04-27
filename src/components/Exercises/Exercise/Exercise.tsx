@@ -95,6 +95,7 @@ const WrapperImg = styled.div`
     max-height: 100%;
     position: relative;
     display: block;
+    width: 100px;
   }
 `;
 
@@ -126,7 +127,7 @@ const Container = styled.div`
   display: flex;
   align-items: end;
   height: 90px;
-  width: initial;
+  height: 100px;
 
   @media (min-width: 801px) {
     height: 127px;
@@ -141,9 +142,13 @@ const ContainerTitle = styled.div`
 `;
 
 const Img = styled.img`
-  max-width: 163px;
+  max-width: 100px;
   max-height: 90px;
   margin-right: 18px;
+  
+  @media (min-width: 601px) {
+     width: 127px;
+  }
 `;
 
 export default Exercise;

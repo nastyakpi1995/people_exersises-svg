@@ -50,7 +50,7 @@ const Container = styled.div`
     }
     left: calc(50% - 205px);
     top: calc(50% - 315px);
-    width: calc(50%);
+    width: 50%;
   }
   @media (min-width: 1200px) {
     left: calc(50% - 269px);
