@@ -95,7 +95,7 @@ const ImgWrapper = styled.div`
 
   @media (min-height: 601px) {
     width: 70%;
-    height: 100%;
+    height: 121px;
   }
 `;
 
