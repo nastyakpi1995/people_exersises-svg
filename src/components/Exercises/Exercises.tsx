@@ -106,9 +106,7 @@ const Exercises: FunctionComponent<Props> = ({
 };
 
 const BoxWrapper = styled.div`
-  width: auto;
-  padding: 21px;
-  height: fit-content;
+  height: inherit;
 
   @media (min-width: 1101px) {
     width: 100%;
@@ -116,8 +114,9 @@ const BoxWrapper = styled.div`
 `;
 
 const Container = styled.div`
-  max-width: 100%;
+  min-width: fit-content;
   position: relative;
+  padding: 0 16px;
 `;
 
 const List = styled.div`
@@ -127,7 +126,7 @@ const List = styled.div`
   box-sizing: border-box;
 
   @media (min-width: 601px) {
-    grid-template-columns: repeat(2, minmax(300px, 1fr));
+    grid-template-columns: repeat(auto-fill, minmax(300px, 800px));
   }
 `;
 

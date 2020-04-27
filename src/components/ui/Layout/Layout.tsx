@@ -54,7 +54,6 @@ const Container = styled.div`
 `;
 
 const LeftContainer = styled.div`
-  // position: relative;
   flex-direction: column;
   background: #c4c4c4;
   height: fit-content;
@@ -72,9 +71,6 @@ const LeftContainer = styled.div`
 const WrapperBody = styled.div`
   width: fill-available;
   display: flex;
-  // position: absolute;
-  // top: 50%;
-  // transform: translateY(-50%);
 
   & svg {
     overflow: hidden;
