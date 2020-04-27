@@ -124,6 +124,8 @@ const List = styled.div`
   grid-template-columns: repeat(auto-fill, minmax(300px, 400px));
   grid-gap: 21px;
   box-sizing: border-box;
+  margin: 0 auto;
+  width: 200px;
 
   @media (min-width: 601px) {
     grid-template-columns: repeat(2, 1fr);

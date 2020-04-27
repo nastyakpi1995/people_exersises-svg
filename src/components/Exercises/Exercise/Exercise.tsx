@@ -29,9 +29,9 @@ const Exercise: FunctionComponent<Props> = ({
       <ModalBox>
         <MainText>{title}</MainText>
         <Content>
-          <WrapperImg>
+          <WrapperImgInModal>
             <Img src={image_url} alt={title} />
-          </WrapperImg>
+          </WrapperImgInModal>
           <span>{comments}</span>
         </Content>
         <p>{information}</p>
@@ -46,11 +46,13 @@ const Exercise: FunctionComponent<Props> = ({
     <Container
       onClick={() => onHandleChooseExercise && onHandleChooseExercise(id)}
     >
-      <Img src={image_url} alt={title} />
-      <div>
+      <WrapperImg>
+        <Img src={image_url} alt={title} />
+      </WrapperImg>
+      <WrapperContent>
         <ContainerTitle>{title}</ContainerTitle>
         <p>{sets_reps}</p>
-      </div>
+      </WrapperContent>
     </Container>
   );
 };
@@ -81,21 +83,24 @@ const ModalBox = styled.div`
   }
 `;
 
-const WrapperImg = styled.div`
+const WrapperContent = styled.div`
+  width: 30%;
+`;
+
+const WrapperImgInModal = styled.div`
   width: 283px;
   height: 196px;
   display: flex;
   margin-right: 4px;
+`;
 
-  & img {
-    overflow: hidden;
-    box-sizing: border-box;
-    object-fit: cover;
-    max-width: 100%;
-    max-height: 100%;
-    position: relative;
-    display: block;
-    width: 100px;
+const WrapperImg = styled.div`
+  width: 100%;
+  margin-right: 11px;
+
+  @media (min-width: 801px) {
+    width: 70%;
+    height: 100%;
   }
 `;
 
@@ -125,9 +130,6 @@ const Container = styled.div`
   border-radius: 10px;
   padding: 18px 27px;
   display: flex;
-  align-items: end;
-  height: 90px;
-  height: 100px;
 
   @media (min-width: 801px) {
     height: 127px;
@@ -142,13 +144,12 @@ const ContainerTitle = styled.div`
 `;
 
 const Img = styled.img`
-  max-width: 100px;
-  max-height: 90px;
-  margin-right: 18px;
-  
-  @media (min-width: 601px) {
-     width: 127px;
-  }
+  overflow: hidden;
+  box-sizing: border-box;
+  object-fit: cover;
+  width: 100%;
+  position: relative;
+  display: block;
 `;
 
 export default Exercise;
