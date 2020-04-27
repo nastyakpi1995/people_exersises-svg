@@ -42,12 +42,13 @@ const Layout: FunctionComponent<Props> = () => {
 };
 
 const Container = styled.div`
+  min-height: 100vh;
   display: grid;
   grid-template-columns: 100%;
   overflow: auto;
   height: max-content;
 
-  @media (min-widht: 800px) {
+  @media (min-width: 800px) {
     grid-template-columns: 50% 50%;
   }
 `;
@@ -62,10 +63,6 @@ const LeftContainer = styled.div`
   justify-content: flex-end;
   padding-bottom: 40px;
   align-items: center;
-
-  @media (min-width: 601px) {
-    width: 576px;
-  }
 
   @media (min-width: 1101px) {
     height: 100%;
