@@ -7,6 +7,7 @@ interface OwnProps {
   onHandleModalClose: Function;
   children: React.ReactChild;
 }
+
 type Props = OwnProps;
 
 const Modal: FunctionComponent<Props> = ({
@@ -30,8 +31,8 @@ const Modal: FunctionComponent<Props> = ({
 };
 
 const Container = styled.div`
-  left: 30%;
-  top: 12%;
+  left: 0;
+  top: 0;
   position: fixed;
   z-index: 500;
   background-color: #ebe9e7;
@@ -42,23 +43,18 @@ const Container = styled.div`
   box-sizing: border-box;
   transition: all 0.3s ease-out;
 
-  @media (max-width: 601px) {
-    left: 0;
-    top: 0;
-    width: fit-content;
-  }
-
-  @media (max-width: 1001px) {
-    left: calc(50% - 205px);
-    top: calc(50% - 315px);
-    width: 416px;
-  }
-
   @media (min-width: 600px) {
     .Modal {
       width: 500px;
       left: calc(50% - 250px);
     }
+    left: calc(50% - 205px);
+    top: calc(50% - 315px);
+    width: 416px;
+  }
+  @media (min-width: 1200px) {
+    left: 30%;
+    top: 12%;
   }
 `;
 
