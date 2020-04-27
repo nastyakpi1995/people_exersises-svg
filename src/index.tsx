@@ -7,14 +7,14 @@ import App from './App';
 const GlobalStyle = createGlobalStyle`
   body {
     margin: 0px;
-    overflow: hidden;
+    overflow: visible;
+    width: fit-content;
+    height: fit-content;
   }
 
-  @media (max-width: 1101px) {
+  @media (min-width: 1101px) {
      body {
-       width: fit-content;
-       height: fit-content;
-       overflow: visible;
+       overflow: hidden;
      }
   }
 `;

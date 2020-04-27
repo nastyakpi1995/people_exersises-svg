@@ -42,37 +42,29 @@ const Layout: FunctionComponent<Props> = () => {
 };
 
 const Container = styled.div`
-  align-items: start;
-  display: flex;
-  height: 100vh;
-
-  @media (max-width: 601px) {
-    flex-direction: column;
-  }
-
-  @media (max-width: 1101px) {
-    overflow: auto;
-    height: max-content;
-  }
+  display: grid;
+  grid-template-columns: 50% 50%;
+  overflow: auto;
+  height: max-content;
 `;
 
 const LeftContainer = styled.div`
   position: relative;
   flex-direction: column;
   background: #c4c4c4;
-  width: 576px;
-  height: 100%;
+  height: fit-content;
   display: flex;
+  width: 100%;
   justify-content: flex-end;
   padding-bottom: 40px;
   align-items: center;
 
-  @media (max-width: 601px) {
-    width: 100%;
+  @media (min-width: 601px) {
+    width: 576px;
   }
 
-  @media (max-width: 1101px) {
-    height: fit-content;
+  @media (min-width: 1101px) {
+    height: 100%;
   }
 `;
 
@@ -91,10 +83,11 @@ const WrapperBody = styled.div`
     height: 100%;
     position: relative;
     display: block;
+    margin: 40px;
   }
 
-  @media (max-width: 1101px) {
-    margin: 40px;
+  @media (min-width: 1101px) {
+    margin: 0;
   }
 `;
 
