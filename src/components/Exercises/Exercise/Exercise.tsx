@@ -125,6 +125,11 @@ const Container = styled.div`
   padding: 18px 27px;
   display: flex;
   align-items: end;
+  height: 90px;
+
+  @media (min-width: 601px) {
+    height: 127px;
+  }
 `;
 
 const ContainerTitle = styled.div`
