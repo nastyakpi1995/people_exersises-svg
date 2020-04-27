@@ -51,8 +51,8 @@ const Exercises: FunctionComponent<Props> = ({
 
   return (
     <>
-      <BoxWrapper>
-        <Container>
+      <RightScreen>
+        <Content>
           {loading && <Spinner />}
           <Header
             amount={totalAmount}
@@ -76,7 +76,7 @@ const Exercises: FunctionComponent<Props> = ({
               }
             )}
           </List>
-        </Container>
+        </Content>
         {!loading &&
           (displayedExercises.length
             ? !!displayedExercises.length
@@ -88,7 +88,7 @@ const Exercises: FunctionComponent<Props> = ({
               onHandlePrevPage={handlePrevPage}
             />
           )}
-      </BoxWrapper>
+      </RightScreen>
       {clickedExercise && (
         <Modal
           show={!!chosenExercise}
@@ -105,30 +105,41 @@ const Exercises: FunctionComponent<Props> = ({
   );
 };
 
-const BoxWrapper = styled.div`
-  height: inherit;
+const RightScreen = styled.div`
+  height: 80%;
 
   @media (min-width: 1101px) {
     width: 100%;
   }
 `;
 
-const Container = styled.div`
+const Content = styled.div`
   min-width: fit-content;
   position: relative;
   padding: 0 16px;
+  height: auto;
 `;
 
 const List = styled.div`
   display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(300px, 400px));
+  width: inherit;
+  grid-template-columns: 1fr;
   grid-gap: 21px;
   box-sizing: border-box;
   margin: 0 auto;
-  width: 200px;
+  height: 100vh;
+
+  @media (min-height: 801px) {
+    height: 80vh;
+  }
+
+  @media (min-height: 601px) {
+    height: auto;
+  }
 
   @media (min-width: 601px) {
     grid-template-columns: repeat(2, 1fr);
+    width: initial;
   }
 `;
 

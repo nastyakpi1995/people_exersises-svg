@@ -9,13 +9,13 @@ type Props = OwnProps;
 
 const Button: FunctionComponent<Props> = ({ text, onHandleClick }) => {
   return (
-    <ButtonReset onClick={() => onHandleClick && onHandleClick()}>
+    <Container onClick={() => onHandleClick && onHandleClick()}>
       {text}
-    </ButtonReset>
+    </Container>
   );
 };
 
-const ButtonReset = styled.button`
+const Container = styled.button`
   background: #0000ff;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
   border-radius: 4px;

@@ -2,18 +2,16 @@ import React, { useEffect, useReducer } from 'react';
 import { ExerciseI } from '../typings/interfaces';
 
 type fetchState = {
-  error: any;
   data: ExerciseI[] | null;
   isLoading: boolean;
 };
 
 type fetchActions = {
   type: string;
-  payload: any;
+  payload: ExerciseI[] | [] | null | boolean;
 };
 
 const initialState = {
-  error: null,
   data: null,
   isLoading: true,
 };
@@ -26,10 +24,7 @@ function reducer(state: fetchState, action: fetchActions) {
 }
 
 export default (urls: string[]) => {
-  const [{ data, error, isLoading }, dispatch] = useReducer(
-    reducer,
-    initialState
-  );
+  const [{ data, isLoading }, dispatch] = useReducer(reducer, initialState);
   useEffect(() => {
     setTimeout(() => {
       try {
@@ -44,10 +39,10 @@ export default (urls: string[]) => {
             }
           });
       } catch (e) {
-        dispatch({ type: 'error', payload: e });
+        console.log(e);
         dispatch({ type: 'isLoading', payload: false });
       }
     }, 3500);
   }, [urls]);
-  return { data, error, isLoading };
+  return { data, isLoading };
 };

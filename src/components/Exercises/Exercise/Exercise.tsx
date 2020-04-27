@@ -29,15 +29,13 @@ const Exercise: FunctionComponent<Props> = ({
       <ModalBox>
         <MainText>{title}</MainText>
         <Content>
-          <WrapperImgInModal>
+          <ModalImg>
             <Img src={image_url} alt={title} />
-          </WrapperImgInModal>
-          <span>{comments}</span>
+          </ModalImg>
+          <WrapperText>{comments}</WrapperText>
         </Content>
         <p>{information}</p>
-        <Button text="Close" onHandleClick={onHandleModalClose}>
-          Close
-        </Button>
+        <Button text="Close" onHandleClick={onHandleModalClose} />
       </ModalBox>
     );
   }
@@ -46,13 +44,13 @@ const Exercise: FunctionComponent<Props> = ({
     <Container
       onClick={() => onHandleChooseExercise && onHandleChooseExercise(id)}
     >
-      <WrapperImg>
+      <ImgWrapper>
         <Img src={image_url} alt={title} />
-      </WrapperImg>
-      <WrapperContent>
+      </ImgWrapper>
+      <TextWrapper>
         <ContainerTitle>{title}</ContainerTitle>
-        <p>{sets_reps}</p>
-      </WrapperContent>
+        <WrapperText>{sets_reps}</WrapperText>
+      </TextWrapper>
     </Container>
   );
 };
@@ -62,14 +60,6 @@ const ModalBox = styled.div`
   height: 616px;
   position: relative;
   margin: 31px 43px 0 35px;
-
-  & p {
-    font-weight: 300;
-    font-size: 14px;
-    line-height: 18px;
-    color: gray;
-    letter-spacing: 0.545455px;
-  }
 
   & img {
     width: 400px;
@@ -83,22 +73,27 @@ const ModalBox = styled.div`
   }
 `;
 
-const WrapperContent = styled.div`
-  width: 30%;
+const TextWrapper = styled.div`
+  width: 35%;
 `;
 
-const WrapperImgInModal = styled.div`
+const ModalImg = styled.div`
   width: 283px;
   height: 196px;
   display: flex;
   margin-right: 4px;
 `;
 
-const WrapperImg = styled.div`
-  width: 100%;
+const ImgWrapper = styled.div`
+  height: 100%;
   margin-right: 11px;
 
   @media (min-width: 801px) {
+    width: 70%;
+    height: 100%;
+  }
+
+  @media (min-height: 601px) {
     width: 70%;
     height: 100%;
   }
@@ -107,13 +102,14 @@ const WrapperImg = styled.div`
 const Content = styled.div`
   display: flex;
   margin-bottom: 14px;
+`;
 
-  & span {
-    font-weight: 300;
-    font-size: 14px;
-    line-height: 18px;
-    letter-spacing: 0.545455px;
-  }
+const WrapperText = styled.p`
+  font-weight: 300;
+  font-size: 13px;
+  line-height: 18px;
+  color: gray;
+  letter-spacing: 0.545455px;
 `;
 
 const MainText = styled.h2`
@@ -128,12 +124,9 @@ const Container = styled.div`
   background: #ebe9e7;
   box-shadow: 0 8px 8px rgba(0, 0, 0, 0.2);
   border-radius: 10px;
-  padding: 18px 27px;
+  padding: 15px 30px;
   display: flex;
-
-  @media (min-width: 801px) {
-    height: 127px;
-  }
+  max-height: 95px;
 `;
 
 const ContainerTitle = styled.div`
@@ -148,6 +141,7 @@ const Img = styled.img`
   box-sizing: border-box;
   object-fit: cover;
   width: 100%;
+  height: 80%;
   position: relative;
   display: block;
 `;

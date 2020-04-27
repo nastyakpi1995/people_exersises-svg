@@ -29,7 +29,7 @@ const Header: FunctionComponent<Props> = ({
 const TopHeader = styled.div`
   width: 340px;
   height: 42px;
-  margin: 40px auto;
+  margin: 10px auto;
   font-size: 36px;
   line-height: 42px;
 `;

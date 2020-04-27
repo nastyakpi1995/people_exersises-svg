@@ -16,7 +16,7 @@ const Pagination: FunctionComponent<Props> = ({
   onHandlePrevPage,
 }) => {
   const minPage = 1;
-  console.log(maxPage);
+
   return (
     <ComponentPagination className="сomponent-pagination">
       <Back
@@ -45,6 +45,7 @@ const ComponentPagination = styled.div`
   align-items: center;
   margin: 30px auto;
   color: green;
+  height: auto%;
 `;
 
 const Arrow = styled.button`
