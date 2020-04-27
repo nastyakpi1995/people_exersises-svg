@@ -63,8 +63,8 @@ const LeftContainer = styled.div`
   padding-bottom: 40px;
   align-items: center;
 
-  @media (min-width: 1101px) {
-    height: 100%;
+  @media (min-width: 900px) {
+    height: initial;
   }
 `;
 

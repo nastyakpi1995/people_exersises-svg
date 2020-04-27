@@ -128,6 +128,10 @@ const List = styled.div`
   @media (min-width: 601px) {
     grid-template-columns: repeat(auto-fill, minmax(300px, 800px));
   }
+
+  @media (min-width: 1001px) {
+    grid-template-columns: repeat(2, minmax(300px, 800px));
+  }
 `;
 
 export default Exercises;
