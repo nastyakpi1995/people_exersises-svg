@@ -1,4 +1,3 @@
-/* eslint-disable @typescript-eslint/no-empty-interface */
 import React, { FunctionComponent, useState } from 'react';
 import styled from 'styled-components';
 import Button from '../Button/Button';
@@ -10,7 +9,6 @@ import Exercises from '../../Exercises/Exercises';
 const currentExercises = ['foot.json', 'hip.json', 'leg.json', 'neck.json'];
 
 interface OwnProps {}
-
 type Props = OwnProps;
 
 const Layout: FunctionComponent<Props> = () => {
@@ -25,15 +23,15 @@ const Layout: FunctionComponent<Props> = () => {
 
   const exercises = chosenPart === '' ? allData : data;
   const loading = isLoading || allIsLoading;
-
+  console.log(loading, 'loading');
   return (
     <Container>
-      <WrapperImg>
+      <LeftContainer>
         <WrapperBody>
           <Body onSetChosenPart={setChosenPart} chosenPart={chosenPart} />
         </WrapperBody>
         <Button text="Reset" onHandleClick={setChosenPart.bind(null, '')} />
-      </WrapperImg>
+      </LeftContainer>
       <Exercises
         chosenPart={chosenPart}
         list={exercises || []}
@@ -44,7 +42,7 @@ const Layout: FunctionComponent<Props> = () => {
 };
 
 const Container = styled.div`
-  height: fit-content;
+  //height: fit-content;
   align-items: start;
   display: flex;
   height: 100vh;
@@ -59,7 +57,7 @@ const Container = styled.div`
   }
 `;
 
-const WrapperImg = styled.div`
+const LeftContainer = styled.div`
   flex-direction: column;
   background: #c4c4c4;
   width: 576px;

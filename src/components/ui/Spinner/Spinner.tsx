@@ -1,4 +1,3 @@
-/* eslint-disable @typescript-eslint/no-empty-interface */
 import React, { FunctionComponent } from 'react';
 import styled, { keyframes } from 'styled-components';
 

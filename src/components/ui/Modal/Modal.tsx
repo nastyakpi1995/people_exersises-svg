@@ -1,6 +1,5 @@
 import React, { FunctionComponent } from 'react';
 import styled from 'styled-components';
-
 import Backdrop from '../Backdrop/Backdrop';
 
 interface OwnProps {
@@ -8,7 +7,6 @@ interface OwnProps {
   onHandleModalClose: Function;
   children: React.ReactChild;
 }
-
 type Props = OwnProps;
 
 const Modal: FunctionComponent<Props> = ({

@@ -5,7 +5,6 @@ interface OwnProps {
   text: string;
   onHandleClick?: Function;
 }
-
 type Props = OwnProps;
 
 const Button: FunctionComponent<Props> = ({ text, onHandleClick }) => {
@@ -26,6 +25,7 @@ const ButtonReset = styled.button`
   color: white;
   width: 178px;
   height: 47px;
+  cursor: pointer;
 `;
 
 export default Button;

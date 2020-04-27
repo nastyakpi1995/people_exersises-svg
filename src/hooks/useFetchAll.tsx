@@ -33,11 +33,11 @@ export default (urls: string[]) => {
   useEffect(() => {
     setTimeout(() => {
       try {
-        let allExercises: any = [];
+        let allExercises: ExerciseI[] = [];
         Promise.all(urls.map((u) => fetch(u)))
           .then((responses) => Promise.all(responses.map((res) => res.json())))
           .then((datas) => {
-            allExercises = datas.map((el: any) => el.data);
+            allExercises = datas.map((el) => el.data);
             if (allExercises) {
               dispatch({ type: 'data', payload: allExercises.flat() });
               dispatch({ type: 'isLoading', payload: false });

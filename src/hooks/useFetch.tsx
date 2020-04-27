@@ -1,8 +1,9 @@
 import React, { useEffect, useReducer } from 'react';
+import { ExerciseI } from '../typings/interfaces';
 
 type fetchState = {
   error: any;
-  data: any;
+  data: ExerciseI[] | [] | null;
   isLoading: boolean;
 };
 
@@ -31,16 +32,19 @@ export default (url: string) => {
   );
 
   useEffect(() => {
+    dispatch({ type: 'isLoading', payload: true });
     setTimeout(() => {
       (async () => {
         try {
           const res = await fetch(url);
           const fetchedData = await res.json();
+          console.log(fetchedData, 'fetched');
           dispatch({ type: 'data', payload: fetchedData.data });
           dispatch({ type: 'isLoading', payload: false });
         } catch (e) {
           dispatch({ type: 'error', payload: e });
           dispatch({ type: 'isLoading', payload: false });
+          dispatch({ type: 'data', payload: [] });
         }
       })();
     }, 1500);

@@ -5,7 +5,6 @@ interface OwnProps {
   show: boolean;
   onHandleModalClose: Function;
 }
-
 type Props = OwnProps;
 
 const Backdrop: FunctionComponent<Props> = ({ show, onHandleModalClose }) =>

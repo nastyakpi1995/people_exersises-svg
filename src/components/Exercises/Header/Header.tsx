@@ -7,7 +7,6 @@ interface OwnProps {
   chosenPart: string;
   loading: boolean;
 }
-
 type Props = OwnProps;
 
 const Header: FunctionComponent<Props> = ({
@@ -17,11 +16,11 @@ const Header: FunctionComponent<Props> = ({
   loading,
 }) => {
   if (loading) {
-    return <h1>loading</h1>;
+    return <TopHeader style={{ textAlign: 'center' }}>Loading...</TopHeader>;
   }
 
   if (!areExercisesFound && !loading) {
-    return <h1>Sorry currently no exercises for {chosenPart}</h1>;
+    return <TopHeader>Sorry currently no exercises for {chosenPart}</TopHeader>;
   }
 
   return <TopHeader> Found {amount} exercises </TopHeader>;

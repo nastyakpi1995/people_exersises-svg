@@ -16,14 +16,16 @@ const Pagination: FunctionComponent<Props> = ({
   onHandlePrevPage,
 }) => {
   const minPage = 1;
-
+  console.log(maxPage);
   return (
     <ComponentPagination className="сomponent-pagination">
       <Back
         onClick={() => onHandlePrevPage()}
         disabled={page === minPage && true}
       />
-      <p>Page {page}</p>
+      <p>
+        Page {page} of {maxPage}
+      </p>
       <Next
         onClick={() => onHandleNextPage()}
         disabled={page === maxPage && true}

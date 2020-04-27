@@ -12,16 +12,14 @@ interface OwnProps {
     comments: string;
     image_url: string;
   };
-
   onHandleChooseExercise?: Function;
   onHandleModalClose?: Function;
   inModal: boolean;
 }
-
 type Props = OwnProps;
 
 const Exercise: FunctionComponent<Props> = ({
-  ex: { id, title, app_title, information, sets_reps, comments, image_url },
+  ex: { id, title, information, sets_reps, comments, image_url },
   onHandleChooseExercise,
   onHandleModalClose,
   inModal,
@@ -29,7 +27,7 @@ const Exercise: FunctionComponent<Props> = ({
   if (inModal) {
     return (
       <ModalBox>
-        <MainText>{app_title}</MainText>
+        <MainText>{title}</MainText>
         <Content>
           <WrapperImg>
             <Img src={image_url} alt={title} />
@@ -120,8 +118,9 @@ const MainText = styled.h2`
 `;
 
 const Container = styled.div`
+  cursor: pointer;
   background: #ebe9e7;
-  box-shadow: 0px 8px 8px rgba(0, 0, 0, 0.2);
+  box-shadow: 0 8px 8px rgba(0, 0, 0, 0.2);
   border-radius: 10px;
   padding: 18px 27px;
   display: flex;

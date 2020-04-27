@@ -12,8 +12,9 @@ interface OwnProps {
   chosenPart: string;
   loading: boolean;
 }
-
 type Props = OwnProps;
+
+const limit = 6;
 
 const Exercises: FunctionComponent<Props> = ({
   list = [],
@@ -22,8 +23,6 @@ const Exercises: FunctionComponent<Props> = ({
 }) => {
   const [chosenExercise, setChosenExercise] = useState(0);
   const [currentPage, setCurrentPage] = useState(1);
-  const [limit, setLimit] = useState(6);
-
   const [displayedExercises, setDisplayedExercises] = useState<
     ExerciseI[] | []
   >([]);
@@ -34,7 +33,7 @@ const Exercises: FunctionComponent<Props> = ({
 
   const handleNextPage = () => {
     setCurrentPage((prevPage) => prevPage + 1);
-    setDisplayedExercises((prevExercises: ExerciseI[]) => {
+    setDisplayedExercises(() => {
       const page = currentPage * limit;
       const exercises = list.slice(page, page + limit);
       return exercises;
@@ -43,7 +42,7 @@ const Exercises: FunctionComponent<Props> = ({
 
   const handlePrevPage = () => {
     setCurrentPage((prevPage) => prevPage - 1);
-    setDisplayedExercises((prevExercises: ExerciseI[]) => {
+    setDisplayedExercises(() => {
       const page = (currentPage - 1) * limit;
       const exercises = list.slice(page - limit, page);
       return exercises;
@@ -78,12 +77,17 @@ const Exercises: FunctionComponent<Props> = ({
             )}
           </List>
         </Container>
-        <Pagination
-          page={currentPage}
-          maxPage={maxPage}
-          onHandleNextPage={handleNextPage}
-          onHandlePrevPage={handlePrevPage}
-        />
+        {!loading &&
+          (displayedExercises.length
+            ? !!displayedExercises.length
+            : !!list.length) && (
+            <Pagination
+              page={currentPage}
+              maxPage={maxPage}
+              onHandleNextPage={handleNextPage}
+              onHandlePrevPage={handlePrevPage}
+            />
+          )}
       </BoxWrapper>
       {clickedExercise && (
         <Modal
