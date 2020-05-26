@@ -1,0 +1,81 @@
+{
+  "data": [
+    {
+      "id": 95,
+      "title": "Arch Lifts",
+      "app_title": "Arch Lifts",
+
+      "information": "Arch Lifts increase resilience in the tendon in the arch of the foot. A sedentary lifestyle weakens your feet, which is why it\u2019s important to train them in order to prevent injuries.",
+      "sets_reps": "1 x 10 reps",
+      "comments": "1x10",
+
+      "image_url": "https://s3.eu-central-1.amazonaws.com/heal.dev.public/exercises/files/537dd418f8c5ca3f730fb2cb16b927029541534186739.jpg"
+    },
+    {
+      "id": 158,
+      "title": "Ballerina",
+      "app_title": "Ballerina",
+
+      "information": "Ballerina improves flexibility in your big toe. Reduced big toe flexibility can cause pain in the arch of your foot, which is why it is important to restore and maintain good joint mobility in your big toe.",
+      "sets_reps": "1 x 20 reps per fot",
+      "comments": "1x20 per fot",
+
+      "image_url": "https://s3.eu-central-1.amazonaws.com/heal.dev.public/exercises/files/ba9d3c6dfdf706525396416805a9983f8941534184040.jpg"
+    },
+    {
+      "id": 159,
+      "title": "Big Toe Extension against a door frame",
+      "app_title": "Big Toe Extension \\nAgainst a Door Frame \\n(2 sets)",
+
+      "information": "Big Toe Extension against a door frame improves flexibility in your big toe. Reduced big toe flexibility can cause pain in the arch of your foot, which is why it is important to restore and maintain good joint mobility in your big toe. Big toe flexibility is also important for walking.",
+      "sets_reps": "2 x 20 reps per fot",
+      "comments": "2x20 per fot",
+
+      "image_url": "https://s3.eu-central-1.amazonaws.com/heal.dev.public/exercises/files/41512a7dba5b6143909ee5cbdf7bcafc7461534184040.jpg"
+    },
+    {
+      "id": 154,
+      "title": "Seated Arch Stretch",
+      "app_title": "Seated \\nArch Stretch",
+
+      "information": "Seated Arch Stretch stretches the tendon in the arch of your foot. Pain in the arch of the foot causes the tendon to contract and tighten. The stretch restores flexibility and prevents recurring discomfort.",
+      "sets_reps": "1 x 5 reps per sida",
+      "comments": "1x5 per sida",
+
+      "image_url": "https://s3.eu-central-1.amazonaws.com/heal.dev.public/exercises/files/f3e385010932a952303d8c169940b8069441534930634.jpg"
+    },
+    {
+      "id": 157,
+      "title": "Standing Toe Piano",
+      "app_title": "Standing \\nToe Piano",
+
+      "information": "Standing Toe Piano strengthens your feet, improves resilience and reduces the risk of recurring discomfort. Performing the exercise standing increases the strain, which further strengthens your feet.",
+      "sets_reps": "2 x 10 reps",
+      "comments": "2x10",
+
+      "image_url": "https://s3.eu-central-1.amazonaws.com/heal.dev.public/exercises/files/a3056eb661a28f9daaf6e2456f19965d4201534930634.jpg"
+    },
+    {
+      "id": 155,
+      "title": "Starting Block",
+      "app_title": "Starting Block",
+
+      "information": "Starting Block stretches the tendon in the arch of your foot. Pain in the arch of the foot causes the tendon to contract and tighten. The ",
+      "sets_reps": "1 x 10 reps per sida",
+      "comments": "1x10 per sida",
+
+      "image_url": "https://s3.eu-central-1.amazonaws.com/heal.dev.public/exercises/files/f47195eeccff04c7cb484dc3b8b1a8d93341534930634.jpg"
+    },
+    {
+      "id": 148,
+      "title": "Towel Roll",
+      "app_title": "\\nTowel Roll",
+
+      "information": "<p><strong>Towel Roll</strong> strengthens the muscles in your feet, increasing tolerance and resilience.</p>\n",
+      "sets_reps": "1 x 5 reps",
+      "comments": "1x5",
+
+      "image_url": "https://s3.eu-central-1.amazonaws.com/heal.dev.public/exercises/files/9fa4f7b111f61a3899019838c444e9103681534930634.jpg"
+    }
+  ]
+}

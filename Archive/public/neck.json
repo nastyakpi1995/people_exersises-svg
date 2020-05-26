@@ -1,0 +1,147 @@
+{
+  "data": [
+    {
+      "id": 197,
+      "title": "Chin Tuck",
+      "app_title": "Chin Tuck",
+
+      "information": "The purpose of Chin Tuck is to reduce the risk of \u201ctext neck\u201d by strengthening and activating the stabilizing muscles on the front of your cervical spine. The exercise also serves as a reminder to keep your head drawn back while you\u2019re working.\n\nSince it is important to take breaks regularly, we recommend a standing position, but the exercise can also be performed while seated. In that case, sit at the edge of the chair with your feet planted.",
+      "sets_reps": "1 x 10 reps",
+      "comments": "1x10",
+
+      "image_url": "https://s3.eu-central-1.amazonaws.com/heal.dev.public/exercises/files/f9f5c0565854011d9e77e0ece19431de6261534929660.jpg"
+    },
+    {
+      "id": 182,
+      "title": "Elevated Neck Activation",
+      "app_title": "Elevated \\nNeck Activation",
+
+      "information": "Elevated Neck Activation actives the muscles deep in your neck in charge of stabilizing your head. If you use muscles that are meant for other tasks, they will be become overexerted and sore, mush like a sprinter forced to run a marathon.",
+      "sets_reps": "1 x 10 reps",
+      "comments": "1x10",
+
+      "image_url": "https://s3.eu-central-1.amazonaws.com/heal.dev.public/exercises/files/d31ae83a87d56cc5c5ab8788e0980c959511534185569.jpg"
+    },
+    {
+      "id": 184,
+      "title": "Elevated Neck Activation with Anti-rotation",
+      "app_title": "Elevated \\nNeck Activation \\nwith Anti-rotation",
+
+      "information": "The exercise activates and strengthens your deep neck muscles. Since these muscles are in charge of stabilizing your head it\u2019s important they are resilient. Twisting from side to side further strengthens the muscles.",
+      "sets_reps": "1 x 5 reps per sida",
+      "comments": "1x5 per h\u00e5ll",
+
+      "image_url": "https://s3.eu-central-1.amazonaws.com/heal.dev.public/exercises/files/f734b4e45f65584978933bf3054f3c7a9771534185569.jpg"
+    },
+    {
+      "id": 185,
+      "title": "Elevated Neck Activation with Anti-rotation",
+      "app_title": "Elevated \\nNeck Activation \\nwith Anti-rotation \\n(2 sets)",
+
+      "information": "Elevated Neck Activation with Anti-rotation activates and improves stamina in the muscles in change of stabilizing your head. It\u2019s important to practice activating the correct muscles, in order to prevent discomfort.",
+      "sets_reps": "1 x 10 reps per sida",
+      "comments": "1x10 per h\u00e5ll",
+
+      "image_url": "https://s3.eu-central-1.amazonaws.com/heal.dev.public/exercises/files/09e428407462382613115767453f0b743901534185569.jpg"
+    },
+    {
+      "id": 183,
+      "title": "Elevated Prolonged Neck Activation",
+      "app_title": "Elevated \\nProlonged \\nNeck Activation",
+
+      "information": "Elevated Prolonged Neck Activation activates and strengthens your deep neck muscles. Since these muscles are in charge of stabilizing your head they need to be resilient. Activating the wrong muscles increases the risk of pain.",
+      "sets_reps": "1 x 10 reps",
+      "comments": "1x10",
+
+      "image_url": "https://s3.eu-central-1.amazonaws.com/heal.dev.public/exercises/files/b4a074ac76d8a65be40fd9ac381c50694441534185569.jpg"
+    },
+    {
+      "id": 181,
+      "title": "Grounded Neck Activation",
+      "app_title": "Grounded \\nNeck Activation",
+
+      "information": "<p>Grounded Neck Activation actives the muscles deep in your neck. These muscles are in charge of stabilizing your head, which is why it&rsquo;s important to practice activating them. If you use muscles that are meant for other tasks, they will be become overexerted and sore, like a sprinter forced to run a marathon.</p>",
+      "sets_reps": "1 x 10 reps",
+      "comments": "1x10",
+
+      "image_url": "https://s3.eu-central-1.amazonaws.com/heal.dev.public/exercises/files/396752b4402a22eed87cc4713286d4077571534185569.jpg"
+    },
+    {
+      "id": 186,
+      "title": "Head Twist",
+      "app_title": "Head Twist",
+
+      "information": "Head Twist restores flexibility in your neck. Adequate flexibility reduces the risk of discomfort.",
+      "sets_reps": "1 x 5 reps per sida",
+      "comments": "1x5 per h\u00e5ll",
+
+      "image_url": "https://s3.eu-central-1.amazonaws.com/heal.dev.public/exercises/files/0b4310cca86fcd080d428d31621547d98121534185569.jpg"
+    },
+    {
+      "id": 206,
+      "title": "Neck Flexion and Extension",
+      "app_title": "Neck Flexion \\nand Extension",
+
+      "information": "Neck Flexion and Extension improves flexibility in your neck. Adequate flexibility reduces the risk of discomfort.\n\nSince it is important to take breaks regularly, we recommend a standing position, but the exercise can also be performed while seated. In that case, sit at the edge of the chair with your feet planted.",
+      "sets_reps": "1 x 6 reps",
+      "comments": "1x6",
+
+      "image_url": "https://s3.eu-central-1.amazonaws.com/heal.dev.public/exercises/files/bddae14fafec74dc61c0dedcf56a20802031534185686.jpg"
+    },
+    {
+      "id": 196,
+      "title": "Neck Stretch",
+      "app_title": "Neck Stretch",
+
+      "information": "Neck Stretch increases flexibility in your neck. Adequate flexibility reduces the risk of problems arising.\n\nSince it is important to take breaks regularly, we recommend a standing position, but the exercise can also be performed while seated. In that case, sit at the edge of the chair with your feet planted.",
+      "sets_reps": "1 x 5 reps per sida",
+      "comments": "1x5 per sida",
+
+      "image_url": "https://s3.eu-central-1.amazonaws.com/heal.dev.public/exercises/files/bf28762494a0aeea76c94eda77ea88144601534929660.jpg"
+    },
+    {
+      "id": 188,
+      "title": "Seated Ergonomics Focus Neck",
+      "app_title": "Seated Ergonomics \\nFocus Neck",
+
+      "information": "Good posture activates the muscles in a way that minimizes strain on the body. The risk of pain is reduced when various muscle groups support one another.",
+      "sets_reps": null,
+      "comments": "...",
+
+      "image_url": "https://s3.eu-central-1.amazonaws.com/heal.dev.public/exercises/files/def8202a2dec0893352ccad35dd072691951534777182.jpg"
+    },
+    {
+      "id": 200,
+      "title": "Shoulder Rolls",
+      "app_title": "Shoulder Rolls",
+
+      "information": "The purpose of Shoulder Roll is to improve circulation in your shoulders and supply the muscles with oxygen and nourishment. Lack of oxygen increases the risk of pain arising.\n\nSince it is important to take breaks regularly, we recommend a standing position, but the exercise can also be performed while seated. In that case, sit at the edge of the chair with your feet planted.",
+      "sets_reps": "1 x 10 reps per sida",
+      "comments": "1x10 per h\u00e5ll",
+
+      "image_url": "https://s3.eu-central-1.amazonaws.com/heal.dev.public/exercises/files/a12c95bd504e7253fae4039de598054d3971534929509.jpg"
+    },
+    {
+      "id": 36,
+      "title": "Shoulder Rolls",
+      "app_title": "Shoulder Rolls",
+
+      "information": "Shoulder Rolls stimulate blood circulation, which creates an ideal environment for healing. Regularly moving your shoulders supplies the muscles with oxygen and reduces the risk of pain.",
+      "sets_reps": "1 x 10 reps",
+      "comments": "...",
+
+      "image_url": "https://s3.eu-central-1.amazonaws.com/heal.dev.public/exercises/files/85381839cd357ec1beb25f6ec73055b59991535364055.jpg"
+    },
+    {
+      "id": 189,
+      "title": "Static Neck Muscle Activation",
+      "app_title": "Static \\nNeck Muscle \\nActivation",
+
+      "information": "Static Neck Muscle Activation increases stability and resilience in your neck, reducing the risk of recurring problems.",
+      "sets_reps": "4 x 5 reps per sida",
+      "comments": "4x5 per sida",
+
+      "image_url": "https://s3.eu-central-1.amazonaws.com/heal.dev.public/exercises/files/347ef8f02aefaf696ba7636099b42aff1751534929751.jpg"
+    }
+  ]
+}

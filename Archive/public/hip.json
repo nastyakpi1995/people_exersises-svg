@@ -1,0 +1,224 @@
+{
+  "data": [
+    {
+      "id": 115,
+      "title": "Balancing Forward Bend",
+      "app_title": "\\n\\nBalancing \\nForward Bend",
+
+      "information": "Balancing Forward Bend trains stability in your feet, ankles, thighs, buttocks, and back muscles, which improves their balance and control.",
+      "sets_reps": "1 x 10 reps per ben",
+      "comments": "1x10 per ben",
+
+      "image_url": "https://s3.eu-central-1.amazonaws.com/heal.dev.public/exercises/files/bad6a9c1fa20b528b17bb2ed9caf9f2e9431534180593.jpg"
+    },
+    {
+      "id": 160,
+      "title": "Chair Squats",
+      "app_title": "Chair Squats",
+
+      "information": "Chair Squats strengthens your glutes and the front of your thighs, which in turn stabilizes your knees. Well-positioned knee joints reduces the risk of recurring problems. Every time you sit down, practice doing it slowly and deliberately, rather than collapsing down on the seat.",
+      "sets_reps": "1 x 10 reps",
+      "comments": "1x10",
+
+      "image_url": "https://s3.eu-central-1.amazonaws.com/heal.dev.public/exercises/files/fa3c822f2fe783c3535a0b44cc5267a5121534184040.jpg"
+    },
+    {
+      "id": 161,
+      "title": "Chair Squats (2 sets)",
+      "app_title": "Chair Squats \\n(2 sets)",
+
+      "information": "Chair Squats strengthens your glutes and the front of your thighs, which in turn stabilizes your knees. Well-positioned knee joints reduces the risk of recurring problems. Every time you sit down, practice doing it slowly and deliberately, rather than collapsing down on the seat.",
+      "sets_reps": "2 x 10 reps",
+      "comments": "2x10",
+
+      "image_url": "https://s3.eu-central-1.amazonaws.com/heal.dev.public/exercises/files/068d33237c91b1c57180ef0d1e96e967381534184040.jpg"
+    },
+    {
+      "id": 174,
+      "title": "Clam",
+      "app_title": "\\n\\n\\nThe Clam",
+
+      "information": "Clam strengthens your gluteal muscles. The glutes are important for stabilizing your hips, maintaining good posture and easing strain on your back.",
+      "sets_reps": "1 x 20 reps per sida",
+      "comments": "1x20 per sida",
+
+      "image_url": "https://s3.eu-central-1.amazonaws.com/heal.dev.public/exercises/files/ce1701bb6f8f3449c61f5176aa4e31762891534184040.jpg"
+    },
+    {
+      "id": 121,
+      "title": "Destabilized Clock",
+      "app_title": "Destabilized \\nClock",
+
+      "information": "Destabilized Clock trains your balance in different directions and improves stability in your feet and ankles, reducing the risk of injury. Standing on an unstable surface hones your balance even more.",
+      "sets_reps": "1 x 2 reps per ben",
+      "comments": "...",
+
+      "image_url": "https://s3.eu-central-1.amazonaws.com/heal.dev.public/exercises/files/31b49ba76c4f3233d23b30e61b3a232d1431534180693.jpg"
+    },
+    {
+      "id": 152,
+      "title": "Destabilized One-legged Squats",
+      "app_title": "Destabilized \\nOne-legged \\nSquats",
+
+      "information": "Performing the exercise on an unstable surface further challenges stability in your ankles, increases resilience and reduces the risk of recurring problems.",
+      "sets_reps": "1 x 10 reps per ben",
+      "comments": "1x10 per ben",
+
+      "image_url": "https://s3.eu-central-1.amazonaws.com/heal.dev.public/exercises/files/6dcaf7c14cb4af5862f5997cd78409ff1731534930634.jpg"
+    },
+    {
+      "id": 153,
+      "title": "Destabilized One-legged Squats (2 sets)",
+      "app_title": "Destabilized \\nOne-legged \\nSquats (2 sets)",
+
+      "information": "Performing the exercise on an unstable surface further challenges stability in your ankles, increases resilience and reduces the risk of recurring problems.",
+      "sets_reps": "2 x 10 reps per ben",
+      "comments": "2x10 per ben",
+
+      "image_url": "https://s3.eu-central-1.amazonaws.com/heal.dev.public/exercises/files/9beaf2a6d5f7f1a77973455e61652a8b8771534930634.jpg"
+    },
+    {
+      "id": 119,
+      "title": "Diagonal Balancing Forward Bend",
+      "app_title": "Diagonal Balancing \\nForward Bend \\n(2 sets)",
+
+      "information": "Diagonal Balancing Forward Bend trains stability in your feet, ankles, thighs, buttocks, and back muscles, which improves their balance and control.",
+      "sets_reps": "2 x 10 reps",
+      "comments": "2x10",
+
+      "image_url": "https://s3.eu-central-1.amazonaws.com/heal.dev.public/exercises/files/5370917d1005abfeac611962a11551a52751534180593.jpg"
+    },
+    {
+      "id": 74,
+      "title": "Dynamic Adductor Plank",
+      "app_title": "Dynamic \\nAdductor Plank",
+
+      "information": "Dynamic Adductor Plank trains your inner thighs and abdomen. Adding dynamic movements increases the load on the muscles around your inner thighs as you simultaneously activate your abs. In time, your hips, knees, and abdomen will become more stable and able to endure greater strain.",
+      "sets_reps": "1 x 15 reps per ben",
+      "comments": "1x15 per ben",
+
+      "image_url": "https://s3.eu-central-1.amazonaws.com/heal.dev.public/exercises/files/17317f403b3543c95c36dae63394ade41781534180593.jpg"
+    },
+    {
+      "id": 209,
+      "title": "Dynamic Couch Stretch",
+      "app_title": "Dynamic \\nCouch Stretch",
+
+      "information": "Dynamic Couches Stretch stretches your hip flexors and the front of your thighs. Particularly hip flexors contract and tighten from sitting on chairs, which is why it's important to stretch these muscles in order to maintain flexibility and good posture.",
+      "sets_reps": "1 x 10 reps per ben",
+      "comments": "1x10 per ben",
+
+      "image_url": "https://s3.eu-central-1.amazonaws.com/heal.dev.public/exercises/files/91e3279d3177279f7fed805d52b21eb38681534186739.jpg"
+    },
+    {
+      "id": 162,
+      "title": "Frozen Chair Squats",
+      "app_title": "Frozen \\nChair Squats",
+
+      "information": "Frozen Chair Squats strengthen the front of your thighs and your glutes, which stabilizes your knees. Improving the position of your knee joints reduces the risk of recurring problems.",
+      "sets_reps": "1 x 10 reps",
+      "comments": "1x10",
+
+      "image_url": "https://s3.eu-central-1.amazonaws.com/heal.dev.public/exercises/files/516c9310ff705560ca83ef68a02007863431534184040.jpg"
+    },
+    {
+      "id": 116,
+      "title": "Grounded Side Leg Lifts",
+      "app_title": "Grounded \\nSide Leg Lifts\\n\\n",
+
+      "information": "Grounded Side Leg Lifts strengthens the muscles on the outside of the hip. These muscles attach to the knee and therefore effect knee stability. Resilient and stable knees improve the position of the hip and ankle joints, reducing the risk of injury. It\u2019s important to strengthen surrounding joints in addition to injured ones, since the cause of pain can be located elsewhere.",
+      "sets_reps": "1 x 10 reps per sida",
+      "comments": "1x10 per sida",
+
+      "image_url": "https://s3.eu-central-1.amazonaws.com/heal.dev.public/exercises/files/08ad5cc28629d03df9c1fe2e59392b716071534180693.jpg"
+    },
+    {
+      "id": 176,
+      "title": "Half Bridge",
+      "app_title": "Half Bridge \\n(2 sets)",
+
+      "information": "Half Bridge strengthens your gluteal muscles, which stabilize your hips, help maintain good posture and ease the strain on your back.",
+      "sets_reps": "2 x 10 reps",
+      "comments": "2x10",
+
+      "image_url": "https://s3.eu-central-1.amazonaws.com/heal.dev.public/exercises/files/7ffe06a07cecfb7e2cee7f8d5e4a2d585601534184040.jpg"
+    },
+    {
+      "id": 175,
+      "title": "Half Bridge",
+      "app_title": "Half Bridge",
+
+      "information": "Half Bridge strengthens your gluteal muscles, which stabilize your hips, help maintain good posture and ease the strain on your back.",
+      "sets_reps": "1 x 10 reps",
+      "comments": "1x10",
+
+      "image_url": "https://s3.eu-central-1.amazonaws.com/heal.dev.public/exercises/files/c04ea4f1c9a8ea536865ce8bb909b2e25941534184040.jpg"
+    },
+    {
+      "id": 177,
+      "title": "Half Bridge Leg Extension",
+      "app_title": "Half Bridge \\nLeg Extension",
+
+      "information": "Half Bridge Leg Extension strengthens your gluteal muscles, which stabilize your hips, help maintain good posture and ease the strain on your back. Extending one leg increases the strain and therefore resilience in your glutes.",
+      "sets_reps": "1 x 10 reps per ben",
+      "comments": "1x10 per ben",
+
+      "image_url": "https://s3.eu-central-1.amazonaws.com/heal.dev.public/exercises/files/0dc8f2f0afab18604eaa361ea64097a7991534184040.jpg"
+    },
+    {
+      "id": 48,
+      "title": "Knee Hugs",
+      "app_title": "Knee Hugs",
+
+      "information": "Knee Hugs increase circulation in your lower back. The increased blood flow supplies oxygen to the musculature, which accelerates healing.",
+      "sets_reps": "1 x 20 reps",
+      "comments": "1x20",
+
+      "image_url": "https://s3.eu-central-1.amazonaws.com/heal.dev.public/exercises/files/8baacfc70bddcf1321d82385bf82c5e0141534178517.jpg"
+    },
+    {
+      "id": 173,
+      "title": "Knee Lifts",
+      "app_title": "Knee Lifts",
+
+      "information": "Knee Lift strengthens and increases stamina in the muscles that bend your hip. These muscles are important for maintaining good posture, and easily become overexerted if they have insufficient strength.",
+      "sets_reps": "1 x 10 reps per ben",
+      "comments": "1x10 per ben",
+
+      "image_url": "https://s3.eu-central-1.amazonaws.com/heal.dev.public/exercises/files/789ce9469d4add3ca13052c44b6569879801534184040.jpg"
+    },
+    {
+      "id": 138,
+      "title": "Lunge Forward Bend",
+      "app_title": "Lunge \\nForward Bend",
+
+      "information": "Lunge Forward Bend trains stability in your ankles, feet and knees, which improves balance and resilience and prevents discomfort in the knees and feet. Bending forward further challenges your balance.",
+      "sets_reps": "1 x 5 reps per ben",
+      "comments": "...",
+
+      "image_url": "https://s3.eu-central-1.amazonaws.com/heal.dev.public/exercises/files/8433a45708ad47d78f534381eb65fb7b731534180693.jpg"
+    },
+    {
+      "id": 166,
+      "title": "One-legged Chair Squats",
+      "app_title": "One-legged \\nChair Squats",
+
+      "information": "One-legged Chair Squats strengthen the front of your thighs and your glutes, which stabilizes your knees. Improving the position of your knee joints reduces the risk of recurring problems.",
+      "sets_reps": "1 x 5 reps per ben",
+      "comments": "1x5 per ben",
+
+      "image_url": "https://s3.eu-central-1.amazonaws.com/heal.dev.public/exercises/files/af3134c5e824a1460de0ee41c67c9c952821534184040.jpg"
+    },
+    {
+      "id": 167,
+      "title": "One-legged Chair Squats (2 sets)",
+      "app_title": "One-legged \\nChair Squats \\n(2 sets)",
+
+      "information": "One-legged Chair Squats strengthen the front of your thighs and your glutes, which stabilizes your knees. Improving the position of your knee joints reduces the risk of recurring problems.",
+      "sets_reps": "2 x 5 reps per ben",
+      "comments": "2x5 per ben",
+
+      "image_url": "https://s3.eu-central-1.amazonaws.com/heal.dev.public/exercises/files/eb4eb242f97940e27b4bbd31742772f28071534184040.jpg"
+    }
+  ]
+}

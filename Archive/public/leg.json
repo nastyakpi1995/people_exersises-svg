@@ -1,0 +1,313 @@
+{
+  "data": [
+    {
+      "id": 95,
+      "title": "Arch Lifts",
+      "app_title": "Arch Lifts",
+
+      "information": "Arch Lifts increase resilience in the tendon in the arch of the foot. A sedentary lifestyle weakens your feet, which is why it\u2019s important to train them in order to prevent injuries.",
+      "sets_reps": "1 x 10 reps",
+      "comments": "1x10",
+
+      "image_url": "https://s3.eu-central-1.amazonaws.com/heal.dev.public/exercises/files/537dd418f8c5ca3f730fb2cb16b927029541534186739.jpg"
+    },
+    {
+      "id": 126,
+      "title": "Arch of the Foot Ball Massage",
+      "app_title": "Arch of the Foot \\nBall Massage",
+
+      "information": "Massage increases blood flow, which carries oxygen and nourishment to the area and stimulates healing.",
+      "sets_reps": "1 x 60 s",
+      "comments": "60 sek p\u00e5 den sm\u00e4rtande foten \n\ntv\u00e5 g\u00e5nger om dagen",
+
+      "image_url": "https://s3.eu-central-1.amazonaws.com/heal.dev.public/exercises/files/4e7b0e883d09c1afa9d90d1865c4304b4611534180693.jpg"
+    },
+    {
+      "id": 115,
+      "title": "Balancing Forward Bend",
+      "app_title": "\\n\\nBalancing \\nForward Bend",
+
+      "information": "Balancing Forward Bend trains stability in your feet, ankles, thighs, buttocks, and back muscles, which improves their balance and control.",
+      "sets_reps": "1 x 10 reps per ben",
+      "comments": "1x10 per ben",
+
+      "image_url": "https://s3.eu-central-1.amazonaws.com/heal.dev.public/exercises/files/bad6a9c1fa20b528b17bb2ed9caf9f2e9431534180593.jpg"
+    },
+    {
+      "id": 158,
+      "title": "Ballerina",
+      "app_title": "Ballerina",
+
+      "information": "Ballerina improves flexibility in your big toe. Reduced big toe flexibility can cause pain in the arch of your foot, which is why it is important to restore and maintain good joint mobility in your big toe.",
+      "sets_reps": "1 x 20 reps per fot",
+      "comments": "1x20 per fot",
+
+      "image_url": "https://s3.eu-central-1.amazonaws.com/heal.dev.public/exercises/files/ba9d3c6dfdf706525396416805a9983f8941534184040.jpg"
+    },
+    {
+      "id": 159,
+      "title": "Big Toe Extension against a door frame",
+      "app_title": "Big Toe Extension \\nAgainst a Door Frame \\n(2 sets)",
+
+      "information": "Big Toe Extension against a door frame improves flexibility in your big toe. Reduced big toe flexibility can cause pain in the arch of your foot, which is why it is important to restore and maintain good joint mobility in your big toe. Big toe flexibility is also important for walking.",
+      "sets_reps": "2 x 20 reps per fot",
+      "comments": "2x20 per fot",
+
+      "image_url": "https://s3.eu-central-1.amazonaws.com/heal.dev.public/exercises/files/41512a7dba5b6143909ee5cbdf7bcafc7461534184040.jpg"
+    },
+    {
+      "id": 121,
+      "title": "Destabilized Clock",
+      "app_title": "Destabilized \\nClock",
+
+      "information": "Destabilized Clock trains your balance in different directions and improves stability in your feet and ankles, reducing the risk of injury. Standing on an unstable surface hones your balance even more.",
+      "sets_reps": "1 x 2 reps per ben",
+      "comments": "...",
+
+      "image_url": "https://s3.eu-central-1.amazonaws.com/heal.dev.public/exercises/files/31b49ba76c4f3233d23b30e61b3a232d1431534180693.jpg"
+    },
+    {
+      "id": 147,
+      "title": "Destabilized Stork",
+      "app_title": "Destabilized \\nStork",
+
+      "information": "Destabilized Stork improves balance and stability in your feet and ankles. The unstable surface further increases difficulty, so make sure to perform the exercise near some form of support.",
+      "sets_reps": "1 x 30 s per ben",
+      "comments": "1x30 sek per ben",
+
+      "image_url": "https://s3.eu-central-1.amazonaws.com/heal.dev.public/exercises/files/069aafabecb86888f7ab0887b3b5360f2821534930634.jpg"
+    },
+    {
+      "id": 119,
+      "title": "Diagonal Balancing Forward Bend",
+      "app_title": "Diagonal Balancing \\nForward Bend \\n(2 sets)",
+
+      "information": "Diagonal Balancing Forward Bend trains stability in your feet, ankles, thighs, buttocks, and back muscles, which improves their balance and control.",
+      "sets_reps": "2 x 10 reps",
+      "comments": "2x10",
+
+      "image_url": "https://s3.eu-central-1.amazonaws.com/heal.dev.public/exercises/files/5370917d1005abfeac611962a11551a52751534180593.jpg"
+    },
+    {
+      "id": 145,
+      "title": "Foot tilts",
+      "app_title": "Foot tilts",
+
+      "information": "The purpose of Foot tilts is to maintain circulation in your ankles during prolonged inactivity. Challenging flexibility in different directions reduces the risk of stiffness.",
+      "sets_reps": "1 x 10 reps",
+      "comments": "2x20",
+
+      "image_url": "https://s3.eu-central-1.amazonaws.com/heal.dev.public/exercises/files/7731d148728f0c39818ff46bbbe8ffc86571534930634.jpg"
+    },
+    {
+      "id": 134,
+      "title": "Lateral Jump",
+      "app_title": "Lateral \\nJump \\n(2 sets)",
+
+      "information": "Lateral Jump improves agility and resilience in your feet, ankles, heel tendons and calves, which allows for greater strain and reduces the risk of recurring injuries. Lateral jumps strengthen structures around the feet and knees. ",
+      "sets_reps": "2 x 20 reps",
+      "comments": "2x20 hopp\n\nvar tredje dag",
+
+      "image_url": "https://s3.eu-central-1.amazonaws.com/heal.dev.public/exercises/files/b23e1590bae8da3966849b62de20ab685191534180693.jpg"
+    },
+    {
+      "id": 133,
+      "title": "Lateral Jump",
+      "app_title": "Lateral \\nJump",
+
+      "information": "Lateral Jump improves agility and resilience in your feet, ankles, heel tendons and calves, which allows for greater strain and reduces the risk of recurring injuries. Lateral jumps strengthen structures around the feet and knees. ",
+      "sets_reps": "1 x 20 reps",
+      "comments": "1x20 hopp\n\nvar tredje dag",
+
+      "image_url": "https://s3.eu-central-1.amazonaws.com/heal.dev.public/exercises/files/aef0f7f732e18fca8035bcc4d573b5447001534180693.jpg"
+    },
+    {
+      "id": 136,
+      "title": "Moving One-legged Jump",
+      "app_title": "Moving \\nOne-legged \\nJump",
+
+      "information": "Moving One-legged Jump improves agility and resilience in your feet, ankles, heel tendons and calves, which allows for greater pressure on the area. It\u2019s important to challenge your agility in a controlled setting before returning to sports or training that strains the injured area. Careful rehabilitation prevents recurring discomfort.",
+      "sets_reps": null,
+      "comments": "1x10 per ben",
+
+      "image_url": "https://s3.eu-central-1.amazonaws.com/heal.dev.public/exercises/files/d3e3637b742d1eb20c5e16c78930fb49191534180693.jpg"
+    },
+    {
+      "id": 140,
+      "title": "Rapid Lateral Jump",
+      "app_title": "Rapid \\nLateral \\nJump",
+
+      "information": "The purpose of Rapid Lateral Jump is to train agility and lateral stability, which is particularly important in order to prevent spraining your ankle again.",
+      "sets_reps": "2 x 20 reps",
+      "comments": "2x20",
+
+      "image_url": "https://s3.eu-central-1.amazonaws.com/heal.dev.public/exercises/files/f6147b7214d41598efbaf12413a370e3761534183456.jpg"
+    },
+    {
+      "id": 154,
+      "title": "Seated Arch Stretch",
+      "app_title": "Seated \\nArch Stretch",
+
+      "information": "Seated Arch Stretch stretches the tendon in the arch of your foot. Pain in the arch of the foot causes the tendon to contract and tighten. The stretch restores flexibility and prevents recurring discomfort.",
+      "sets_reps": "1 x 5 reps per sida",
+      "comments": "1x5 per sida",
+
+      "image_url": "https://s3.eu-central-1.amazonaws.com/heal.dev.public/exercises/files/f3e385010932a952303d8c169940b8069441534930634.jpg"
+    },
+    {
+      "id": 142,
+      "title": "Seated Foot Slide",
+      "app_title": "Seated \\nFoot Slide",
+
+      "information": "The purpose of Seated Foot Slide is to maintain circulation despite deskbound inactivity and to reduce the risk of stiffness.",
+      "sets_reps": "1 x 20 reps",
+      "comments": "1x20",
+
+      "image_url": "https://s3.eu-central-1.amazonaws.com/heal.dev.public/exercises/files/d229cf25ed62152d7b00386bc56024095321534183456.jpg"
+    },
+    {
+      "id": 143,
+      "title": "Sewing Machine",
+      "app_title": "Old Sewing \\nMachine",
+
+      "information": "The purpose of Old Sewing Machine is to maintain circulation despite prolonged inactivity. Good circulation means a steady supply of oxygen and nourishment to the injured area, which creates an ideal healing environment and accelerates rehabilitation.",
+      "sets_reps": "1 x 20 reps",
+      "comments": "1x20",
+
+      "image_url": "https://s3.eu-central-1.amazonaws.com/heal.dev.public/exercises/files/764d52ce2c2e029869b8ee81c3a2a5a73471534930634.jpg"
+    },
+    {
+      "id": 125,
+      "title": " Single Leg Toe Lifts",
+      "app_title": "Single Leg \\nToe Lifts \\n(2 sets)",
+
+      "information": "Single Leg Toe Lifts strengthens your Achilles tendon and strains the arch of your foot, which increases resilience in the tendons of your heels and arches. Performing the exercise on one foot increases the strain, further improving resilience.",
+      "sets_reps": "2 x 30 reps",
+      "comments": "2x20",
+
+      "image_url": "https://s3.eu-central-1.amazonaws.com/heal.dev.public/exercises/files/8fba90db427d82eb1e91be87778bc4336891534180693.jpg"
+    },
+    {
+      "id": 124,
+      "title": "Single Leg Toe Lifts",
+      "app_title": "Single Leg \\nToe Lifts",
+
+      "information": "Single Leg Toe Lifts strengthens your Achilles tendon and strains the arch of your foot, which increases resilience in the tendons of your heels and arches. Performing the exercise on one foot increases the strain, further improving resilience.",
+      "sets_reps": "2 x 10 reps",
+      "comments": "2x10",
+
+      "image_url": "https://s3.eu-central-1.amazonaws.com/heal.dev.public/exercises/files/d63c5cade38c163140a1ba6d7809fed98521534180693.jpg"
+    },
+    {
+      "id": 141,
+      "title": "Square Jump",
+      "app_title": "Square \\nJump",
+
+      "information": "The purpose of Square Jump is to recover agility and challenge the stability of your ankles in different directions in order to improve functionality and prevent recurring discomfort.",
+      "sets_reps": "1 x 5 reps per ben",
+      "comments": "1x5 varv per ben",
+
+      "image_url": "https://s3.eu-central-1.amazonaws.com/heal.dev.public/exercises/files/bbe7f52b6ab647ecefb1ddd1b87c7496771534183456.jpg"
+    },
+    {
+      "id": 144,
+      "title": "Squeeze and Spread",
+      "app_title": "Squeeze \\nand Spread",
+
+      "information": "The purpose of Squeeze and Spread is to maintain function and flexibility in the muscles that control your toes. This is particularly important if you have a hard time walking, and therefore don\u2019t use the muscles in your feet like normal.",
+      "sets_reps": "1 x 20 reps",
+      "comments": "1x20",
+
+      "image_url": "https://s3.eu-central-1.amazonaws.com/heal.dev.public/exercises/files/a629a9bf0ae2395b60a5ac5ae45e7f466521534930634.jpg"
+    },
+
+    {
+      "id": 157,
+      "title": "Standing Toe Piano",
+      "app_title": "Standing \\nToe Piano",
+
+      "information": "Standing Toe Piano strengthens your feet, improves resilience and reduces the risk of recurring discomfort. Performing the exercise standing increases the strain, which further strengthens your feet.",
+      "sets_reps": "2 x 10 reps",
+      "comments": "2x10",
+
+      "image_url": "https://s3.eu-central-1.amazonaws.com/heal.dev.public/exercises/files/a3056eb661a28f9daaf6e2456f19965d4201534930634.jpg"
+    },
+    {
+      "id": 155,
+      "title": "Starting Block",
+      "app_title": "Starting Block",
+
+      "information": "Starting Block stretches the tendon in the arch of your foot. Pain in the arch of the foot causes the tendon to contract and tighten. The ",
+      "sets_reps": "1 x 10 reps per sida",
+      "comments": "1x10 per sida",
+
+      "image_url": "https://s3.eu-central-1.amazonaws.com/heal.dev.public/exercises/files/f47195eeccff04c7cb484dc3b8b1a8d93341534930634.jpg"
+    },
+    {
+      "id": 135,
+      "title": "Stationary One-legged Jump",
+      "app_title": "Stationary \\nOne-legged \\nJump",
+
+      "information": "Stationary One-legged Jump improves agility and resilience in your feet, ankles, heel tendons and calves, which allows for greater strain and reduces the risk of recurring injuries.",
+      "sets_reps": "1 x 20 reps per ben",
+      "comments": "1x20 per ben",
+
+      "image_url": "https://s3.eu-central-1.amazonaws.com/heal.dev.public/exercises/files/3448762870e3d5c749f65f9be66df9252891534180693.jpg"
+    },
+    {
+      "id": 146,
+      "title": "Stork",
+      "app_title": "The Stork",
+
+      "information": "Stork improves balance and increases stability in your feet and ankles. It\u2019s important to challenge the limits of your balance in order for it to improve, so make sure to perform the exercise near some form of support.",
+      "sets_reps": "1 x 30 s per ben",
+      "comments": "1x30 sek per ben",
+
+      "image_url": "https://s3.eu-central-1.amazonaws.com/heal.dev.public/exercises/files/8b2a7e0302dc277c383ac0636369431b9671534930634.jpg"
+    },
+    {
+      "id": 120,
+      "title": "The Clock",
+      "app_title": "The Clock",
+
+      "information": "Clock trains your balance in different directions and improves stability in your feet and ankles, reducing the risk of injury.",
+      "sets_reps": "1 x 2 reps per ben",
+      "comments": "...",
+
+      "image_url": "https://s3.eu-central-1.amazonaws.com/heal.dev.public/exercises/files/cf5710bde9dcb5e06062661cd51915f97241534180693.jpg"
+    },
+    {
+      "id": 122,
+      "title": "Toe Lifts",
+      "app_title": "Toe Lifts",
+
+      "information": "<p><strong>Toe Lifts </strong>strengthen&nbsp;your Achilles tendon and strains the arch of your foot, which increases resilience in the tendons of your heels and arches.</p>\n",
+      "sets_reps": "1 x 10 reps",
+      "comments": "1x10\n\nvarannan dag",
+
+      "image_url": "https://s3.eu-central-1.amazonaws.com/heal.dev.public/exercises/files/59c640e2ad4a285fc34882acd867b103371534180693.jpg"
+    },
+    {
+      "id": 123,
+      "title": "Toe Lifts (2 sets)",
+      "app_title": "Toe Lifts \\n(2 sets)",
+
+      "information": "<p><strong>Toe Lifts</strong> strengthen&nbsp;your Achilles tendon and strains the arch of your foot, which increases resilience in the tendons of your heels and arches.</p>\n",
+      "sets_reps": "2 x 10 reps",
+      "comments": "2x10\n\nvarannan dag",
+
+      "image_url": "https://s3.eu-central-1.amazonaws.com/heal.dev.public/exercises/files/13f12c4d45e35967183dfbc03edb047f3741534180693.jpg"
+    },
+    {
+      "id": 148,
+      "title": "Towel Roll",
+      "app_title": "\\nTowel Roll",
+
+      "information": "<p><strong>Towel Roll</strong> strengthens the muscles in your feet, increasing tolerance and resilience.</p>\n",
+      "sets_reps": "1 x 5 reps",
+      "comments": "1x5",
+
+      "image_url": "https://s3.eu-central-1.amazonaws.com/heal.dev.public/exercises/files/9fa4f7b111f61a3899019838c444e9103681534930634.jpg"
+    }
+  ]
+}
